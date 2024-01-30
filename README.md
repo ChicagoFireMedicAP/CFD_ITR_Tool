@@ -1,10 +1,14 @@
 # CFD_ITR_Tool
-Tool that scrapes and searches legacy in service training records from the old Share Point form
+Tool that scrapes and searches legacy in service training records from the old Share Point form.  Born out of the state audit of old records.  
 
 Training Record Lookup Tool
+
+
 This is a Python script that allows you to search and extract information from a specific Excel file containing CFD in service training records. It provides a graphical user interface (GUI) created using the tkinter library for user interaction.
 
 How to Use
+
+
 Select Excel File: Upon running the script, you will be prompted to select an Excel file containing the training records. The script assumes that the relevant data is stored in a sheet named 'ITRs' within the selected Excel file.
 
 Enter File Number: After selecting the Excel file, a dialog box will appear asking you to enter a "File Number." This file number is used to filter the training records based on the selected file number.
