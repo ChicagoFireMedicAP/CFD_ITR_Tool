@@ -27,6 +27,9 @@ Result: The script will display a message indicating the location where the gene
 Requirements
 
 Pandas library
+
 tkinter library
+
 xlsxwriter library
+
 Excel output from the ITR Share Point List (note this is very very large, private script connects via API)
