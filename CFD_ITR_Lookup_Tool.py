@@ -1,3 +1,4 @@
+# In-service traiing record tool, born out of Illinois State audit of random records
 import pandas as pd
 import tkinter as tk
 from tkinter import filedialog, simpledialog, ttk
