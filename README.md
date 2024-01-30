@@ -21,7 +21,8 @@ Create an Excel file with two sheets:
 Result: The script will display a message indicating the location where the generated Excel file is saved.
 
 Requirements
-Python 3.x
+
 Pandas library
-tkinter library (usually included with Python)
+tkinter library
 xlsxwriter library
+Excel output from the ITR Share Point List (note this is very very large, private script connects via API)
