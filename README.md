@@ -1,5 +1,5 @@
 # CFD_ITR_Tool
-Tool that scrapes and searches legacy in service training records from the old Share Point form.  Born out of the state audit of old records.  Private repo connects to the Share Point list via API making it an all in one.  Not going to make that public though.
+Tool that scrapes and searches legacy in service training records from the old Share Point form/list.  Born out of the state audit of old records.  Private repo connects to the Share Point list via API making it an all in one.  Not going to make that public though.
 
 Training Record Lookup Tool
 
