@@ -8,7 +8,7 @@ import os
 import re
 
 
-# Function to clean and convert duration strings to numbers
+#clean and convert duration strings to numbers
 def clean_and_convert_duration(duration):
     # Convert the duration to a string
     duration_str = str(duration)
