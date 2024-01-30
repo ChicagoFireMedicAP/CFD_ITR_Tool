@@ -1,3 +1,6 @@
+#Tool to look up the legacy CFD in service training records formerly hosted on SharePoint
+# Anthony.Popelka@cityofchicago.org, Anthony.Popelka@gmail.com
+# Requires csv export from the relevant SharePoint list
 import pandas as pd
 import tkinter as tk
 from tkinter import filedialog, simpledialog
@@ -10,20 +13,20 @@ def clean_and_convert_duration(duration):
     # Convert the duration to a string
     duration_str = str(duration)
 
-    # Use regular expression to extract numeric part from the duration string
+    #extractnumber part from the duration string
     numeric_part = re.search(r'\d+\.*\d*', duration_str)
     if numeric_part:
         return float(numeric_part.group())
     return 0.0
 
 
-# Function to prompt user to select a directory for saving the output Excel file
+# prompt user to select a directory for saving the output Excel file
 def select_output_directory():
     output_directory = filedialog.askdirectory(title="Select Output Directory")
     return output_directory
 
 
-# Function to search and write class details to an Excel file
+#search and write class details to an excel file
 def search_and_write_to_excel():
     file_number = simpledialog.askstring("Enter File Number", "Please enter the File Number:")
 
@@ -75,15 +78,15 @@ def search_and_write_to_excel():
             print(f"No training records found for File Number: {file_number}")
 
 
-# Create a tkinter GUI window for selecting the Excel file
+#GUI window for excel file selection
 root = tk.Tk()
 root.withdraw()  # Hide the main window
 
-# Prompt user to select the Excel file
+# Prompt user to select the excel file
 selected_file = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx")])
 
 if selected_file:
-    # Read the data from the selected Excel file into a Pandas DataFrame
+    # put the data into a pandas dataframe
     df = pd.read_excel(selected_file, sheet_name='ITRs')  # Assuming the sheet name is 'ITRs'
 
     # Create a tkinter GUI window
