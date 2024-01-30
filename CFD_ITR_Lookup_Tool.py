@@ -1,4 +1,5 @@
 # In-service traiing record tool, born out of Illinois State audit of random records
+# We moved ITRs to Vector Solutions but have 10+ years of data we may have to access in the future
 import pandas as pd
 import tkinter as tk
 from tkinter import filedialog, simpledialog, ttk
