@@ -4,7 +4,7 @@ Tool that scrapes and searches legacy in service training records from the old S
 Training Record Lookup Tool
 
 
-This is a Python script that allows you to search and extract information from a specific Excel file containing CFD in service training records. It provides a graphical user interface (GUI) created using the tkinter library for user interaction.
+This is a Python script that allows you to search and extract information from a specific Excel file containing CFD in service training records. It provides a gui created using the tkinter library.  This isn;t flashy and is 100% creature comfort for use for CFD training staff
 
 How to Use
 
