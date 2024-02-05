@@ -28,8 +28,8 @@ def search_and_write_to_excel():
 
     if file_number is not None:
         filtered_df = df[
-            df[['Officer\'s File #', 'Member 2 File', 'Member 3 File', 'Member 4 File', 'Member 5 File']].eq(
-                file_number).any(1)]
+            df[['Officer\'s File #', 'Member 2 File', 'Member 3 File', 'Member 4 File', 'Member 5 File']].eq(file_number).any(axis=1)
+        ]
 
         if not filtered_df.empty:
             class_hours = {}
