@@ -104,7 +104,7 @@ def search_and_write_to_excel():
 
 # GUI window for selecting the Excel file
 root = tk.Tk()
-root.withdraw()  # Hide the main window
+root.withdraw()
 
 # select the Excel file
 selected_file = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx")])
@@ -134,4 +134,4 @@ if selected_file:
 else:
     print("No Excel file selected. Exiting program.")
 
-# End of program
+# End 
