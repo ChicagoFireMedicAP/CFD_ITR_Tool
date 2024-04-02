@@ -1,4 +1,4 @@
-# In-service traiing record tool, born out of Illinois State audit of random records
+# In-service training record tool, born out of Illinois State audit of random records
 # We moved ITRs to Vector Solutions but have 10+ years of data we may have to access in the future
 # legacy data is located on a share point list
 # that file is located in private install files or can be downloaded from the source
